@@ -1,4 +1,4 @@
-// adding a new character
+// add a new character
 
 function addNewCharacter(obj) {
     const charImage = obj.image;
@@ -13,7 +13,7 @@ function addNewCharacter(obj) {
     charWrap.insertBefore(charContainer, charWrap.firstChild); // place new character to top
 }
 
-// adding a stored character
+// add a stored character
 
 function addStoredCharacter(obj) {
     const charImage = obj.image;
@@ -64,7 +64,7 @@ const root = document.getElementById('root');
 const loadMoreButton = document.querySelector('.load-more');
 loadMoreButton.disabled = true;
 
-// displaying stored characters: default and on clicking 'load more' button
+// display stored characters: default and on clicking 'load more' button
 
 const storedChars = []; // get previously stored searchs into array 
 for (let i = 0; i <= localStorage.length - 1; i++) { 
@@ -122,7 +122,7 @@ if (storedChars.length > 0) { // initiate stored items display id storage is no 
     }
 }
 
-// searching and displaying new characters
+// search and displaying new characters
 
 const searchButton = document.querySelector('#search-btn');
 
@@ -141,7 +141,7 @@ searchButton.addEventListener('click', async function () {
     }
 });
 
-// removing characters
+// remov characters
 
 document.addEventListener('click', function(event) {
     const removeButton = event.target.closest('.remove-btn');
