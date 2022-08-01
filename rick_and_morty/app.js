@@ -122,7 +122,7 @@ if (storedChars.length > 0) { // initiate stored items display id storage is no 
     }
 }
 
-// search and displaying new characters
+// search and display new characters
 
 const searchButton = document.querySelector('#search-btn');
 
@@ -141,7 +141,7 @@ searchButton.addEventListener('click', async function () {
     }
 });
 
-// remov characters
+// remove characters
 
 document.addEventListener('click', function(event) {
     const removeButton = event.target.closest('.remove-btn');
