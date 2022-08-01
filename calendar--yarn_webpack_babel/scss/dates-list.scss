@@ -1,0 +1,36 @@
+.date_headers {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.date_headers, .date_list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 6px;
+    justify-content: center;
+}
+
+.weakday_header {
+    margin-top: 10px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+}
+
+.calendar_element {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+}
+
+.not_current_month {
+    color: #888;
+}
+
+.current_date {
+    color: #fff;
+    background-color: rgb(54, 54, 241);
+}

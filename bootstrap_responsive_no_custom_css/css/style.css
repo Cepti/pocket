@@ -1,0 +1,11 @@
+.top-logo {
+    color: #C62C45;
+}
+
+.header-banner {
+    background: no-repeat linear-gradient(#000000cb, #000000cb), center/cover url("../img/header-bg.jpg");
+}
+
+.font-600 {
+    font-weight: 600;
+}
